@@ -6,6 +6,7 @@ class GString:
         self.str = msg
     def print(self):
         print(str)
+        #print(self.str)로 수정해야함
 
 g = GString()
 g.set("First Message")
